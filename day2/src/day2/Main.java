@@ -19,7 +19,11 @@ public class Main {
 		CourseManager courseManager = new CourseManager();
 		 courseManager.addCourse(course1);
 		 courseManager.addCourse(course2);
+		 courseManager.addCourse(course3);
+		 courseManager.deleteCourse(course1);
 		 courseManager.deleteCourse(course2);
+		 courseManager.deleteCourse(course3);
+
 		 
 		Category category1=new Category(1,"Programlama"); 
 		 
